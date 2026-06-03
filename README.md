@@ -3,7 +3,6 @@ Official implementation of the paper: "Evidence-Mechanism Routing for Zero-Trans
 
 Traditional industrial anomaly detection heavily relies on domain-specific appearance correlations, suffering catastrophic failures when transferred to unseen component geometries (e.g., from bearing surfaces to gear profiles). Evidence-Mechanism Routing (EMR) bypasses this dilemma. By explicitly organizing event-induced visual changes into intermediate physical evidence (Structural, Photometric, Shape) and routing them through latent mechanisms, EMR achieves Zero-Transfer Generalization without requiring production halts or memory bank recollecting.
 
- EMR achieves a rigorous inference speed of 76.3ms (13.1 FPS), providing >10x processing margin for mechanical takt-time matching.
 
 💾 Datasets & Reproducibility
 We provide the extremely lightweight GearVision Dataset (~150MB) to facilitate zero-barrier reproduction. The training set is strictly balanced (500 images/subtype) to prevent prior bias.
